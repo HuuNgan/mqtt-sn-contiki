@@ -35,7 +35,7 @@ sudo ./broker_mqtts config.mqtt
 ```
 
 ## More About Mosquitto publish and subscribe
-** Subscribe:
+#### Subscribe:
 ```sh
     mosquitto_sub -v -h broker_ip -p 1883 -t '#'
 ```
@@ -45,7 +45,7 @@ Or
 ```
 Where broker_ip is: 127.0.1.1
 
-** Publish a topic:
+#### Publish a topic:
 ```sh
     mosquitto_pub -t 'test/topic' -m 'helloWorld'
 ```
